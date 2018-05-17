@@ -17,7 +17,7 @@ class Add extends Component {
   }
 }
 
-class Sub extends React.Component {
+class Sub extends Component {
 
 	handleClick = () => {
     this.props.onClickFunc(this.props.decrementValue)
@@ -38,7 +38,7 @@ const Result = (props) => {
   );
 };
 
-class App extends React.Component {
+class App extends Component {
 	state = {counter:0};
   
   incrementCounter = (incrementValue) => {
